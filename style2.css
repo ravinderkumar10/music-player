@@ -1,0 +1,61 @@
+body{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+} 
+h1{
+    border: solid;
+    color:white;
+    position:sticky;
+    
+}
+img:hover {
+    width: 50 px ;
+    height: 30 px;
+    image-orientation: flip;
+}
+.bottom{
+    position:sticky;
+    height : 100px;
+    background-color: black;
+    bottom:0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 14px;
+}
+.icons i {
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+}
+
+.songItem {
+    height: 150px;
+    display:flex;
+    background-color : black;
+    /* width: 50%; */
+    color:white;
+    margin: 12px,0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between ;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 50;
+    justify-content : space-between;
+    align-items: center; 
+}
+
+.songItem img{
+    width: 150px;
+    margin: 0 23px 0;
+    border-radius: 34px;
+}
+.songName:hover{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+}
